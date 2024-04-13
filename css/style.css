@@ -152,6 +152,10 @@
   line-height: 16px;
 }
 
+.footer__info:hover {
+  color: var(--blue);
+}
+
 /* Portofolio */
 
 .button {
