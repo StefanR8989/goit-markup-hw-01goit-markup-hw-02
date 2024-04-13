@@ -44,6 +44,8 @@
   background-color: var(--black);
 }
 
+/* Index */
+
 .main {
   background-color: var(--black);
 }
@@ -148,4 +150,40 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
+}
+
+/* Portofolio */
+
+.button {
+  background-color: #f5f4fa;
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: var(--blue);
+  color: white;
+}
+
+.porto__title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.porto__subtitle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
