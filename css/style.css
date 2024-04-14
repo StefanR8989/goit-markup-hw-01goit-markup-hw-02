@@ -3,6 +3,13 @@
   --white: #ffffff;
   --grey: #f5f4fa;
   --blue: #2196f3;
+  --primary font: 'Roboto', sans-serif;
+  --secondary font: 'Raleway', sans-serif;
+}
+
+.body{
+    background-color: var(--white);
+    font-family: var(--primary);
 }
 
 .header {
@@ -11,12 +18,13 @@
 
 .header__logo {
   color: #212121;
+  font-family: var(--secondary);
 }
 
 .header__navigation ul {
   list-style-type: none;
   color: #212121;
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -29,7 +37,7 @@
 
 .header__info {
   color: #212121;
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -51,7 +59,7 @@
 }
 
 .main__text {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -59,8 +67,8 @@
   text-align: center;
 }
 
-.maine__button {
-  font-family: Roboto;
+.main__button {
+  font-family: var(--primary);
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -68,6 +76,7 @@
   text-align: center;
   background-color: var(--blue);
   color: var(--white);
+  cursor: pointer;
 }
 
 .what {
@@ -75,7 +84,7 @@
 }
 
 .what__title {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -84,7 +93,8 @@
 }
 
 .what__subtitle {
-  font-family: Roboto;
+  font-family: var(--primary);
+  color: #757575;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -93,7 +103,7 @@
 }
 
 .what__we {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -106,7 +116,7 @@
 }
 
 .ourteam__name {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 16px;
   font-weight: 500;
   line-height: 18.75px;
@@ -115,7 +125,7 @@
 }
 
 .ourteam__job {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
@@ -124,7 +134,7 @@
 }
 
 .ourteam__title {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 36px;
   font-weight: 700;
   line-height: 42.19px;
@@ -134,11 +144,12 @@
 
 .footer__logo {
   color: var(--white);
+  font-family: var(--secondary);
 }
 
 .footer__adress {
   color: var(--white);
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
@@ -146,7 +157,7 @@
 
 .footer__info {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
@@ -161,12 +172,13 @@
 .button {
   background-color: #f5f4fa;
   color: black;
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 3;
   text-align: center;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -175,7 +187,7 @@
 }
 
 .porto__title {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
@@ -184,7 +196,7 @@
 }
 
 .porto__subtitle {
-  font-family: Roboto;
+  font-family: var(--primary);
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
